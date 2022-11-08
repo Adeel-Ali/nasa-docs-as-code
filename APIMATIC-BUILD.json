@@ -1,0 +1,194 @@
+{
+  "$schema": "https://titan.apimatic.io/api/build/schema",
+  "buildFileVersion": "1",
+  "generatePortal": {
+    "contentFolder": "./",
+    "apiSpecPath": "./spec",
+    "apiSpecs": [],
+    "apiMergeSettings": {
+      "type": "Full"
+    },
+    "languageConfig": {
+      "http": {},
+      "csharp": {},
+      "java": {},
+      "python": {},
+      "ruby": {},
+      "php": {},
+      "typescript": {}
+    },
+    "portalSettings": {
+      "container": "apimatic-widget",
+      "portalStyle": "default",
+      "apiKey": "xxx",
+      "baseUrl": "./",
+      "enableExport": true,
+      "enableAnalytics": true,
+      "enableConsoleCalls": true,
+      "useProxyForConsoleCalls": true,
+      "languageSettings": {
+        "http_curl_v1": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "cs_net_standard_lib": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "java_eclipse_jre_lib": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "python_generic_lib": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "ruby_generic_lib": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "php_generic_lib_v2": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        },
+        "ts_generic_lib": {
+          "sdkDownloadLink": "",
+          "disableSdkDownload": false
+        }
+      },
+      "allowedExportFormats": [
+        "postman10",
+        "postman20",
+        "openapi31json",
+        "openapi31yaml",
+        "openapi3json",
+        "openapi3yaml",
+        "swagger20",
+        "swaggeryaml",
+        "swagger10",
+        "raml10",
+        "apiblueprint",
+        "wadl2009",
+        "apimatic",
+        "wsdl",
+        "insomnia",
+        "insomniayaml"
+      ],
+      "themeOverrides": {
+        "palette": {
+          "primaryColor": "#0795ed",
+          "linkColor": "#0062ff"
+        },
+        "fontSource": [
+          "https://fonts.googleapis.com/css?family=-apple-system",
+          "https://fonts.googleapis.com/css?family='SFMono-400'"
+        ],
+        "cssStyles": {
+          "headings": {
+            "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+            "h1": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "24px",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "0.9"
+            },
+            "h2": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "23px",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "0.82"
+            },
+            "h3": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "19px",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "1"
+            },
+            "h4": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "17px",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "1.17"
+            },
+            "h5": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "15",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "1.26"
+            },
+            "h6": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "lineHeight": "1.35"
+            }
+          },
+          "body": {
+            "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+            "text1": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "lineHeight": "1.78"
+            },
+            "text2": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "lineHeight": "1.5"
+            },
+            "text3": {
+              "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue, Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "lineHeight": "1.66"
+            }
+          },
+          "code": {
+            "fontFamily": "'SFMono-400', Consolas, 'Liberation Mono', Menlo, Courier",
+            "inlineCode": {
+              "fontFamily": "'SFMono-400', Consolas, 'Liberation Mono', Menlo, Courier",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "lineHeight": "1.66"
+            },
+            "blockCode": {
+              "fontFamily": "'SFMono-400', Consolas, 'Liberation Mono', Menlo, Courier",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "lineHeight": "1.66"
+            }
+          }
+        }
+      },
+      "codegenApiRoutes": {
+        "docsgen": "/static/docs/{template}.json",
+        "codegen": "/static/sdks/{template}.zip",
+        "transform": "/static/exports/{format}.{ext}"
+      },
+      "renameHttpToRest": false
+    },
+    "pageTitle": "NASA EPIC API",
+    "logoUrl": "https://apimaticio.blob.core.windows.net/images/draft-logos/favicon-192-3a0cd420-b2fb-4e53-be3b-dd5ba674671a.png",
+    "logoLink": "https://epic.gsfc.nasa.gov/about/api",
+    "whiteLabel": false,
+    "useHostedPortalScript": true,
+    "debug": {
+      "publishReport": false,
+      "dumpImportedApi": false,
+      "reportPath": "./apimatic-debug/apimatic-report.html",
+      "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
+    }
+  }
+}

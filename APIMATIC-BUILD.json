@@ -2,40 +2,31 @@
   "$schema": "https://titan.apimatic.io/api/build/schema",
   "buildFileVersion": "1",
   "generatePortal": {
-    "contentFolder": "./",
-    "apiSpecPath": "./spec",
-    "apiSpecs": [],
-    "languageConfig": {
-      "http": {},
-      "csharp": {},
-      "java": {},
-      "python": {},
-      "ruby": {},
-      "php": {},
-      "typescript": {}
-    },
-    "portalSettings": {
-      "container": "apimatic-widget",
-      "portalStyle": "default",
-      "enableExport": true,
-      "enableAnalytics": true,
-      "enableConsoleCalls": true,
-      "useProxyForConsoleCalls": true,
-      "codegenApiRoutes": {
-        "docsgen": "/static/docs/{template}.json",
-        "codegen": "/static/sdks/{template}.zip",
-        "transform": "/static/exports/{format}.{ext}"
+      "debug": {
+          "publishReport": true
+      },
+      "pageTitle": "NASA EPIC API",
+      "logoUrl": "https://apimaticio.blob.core.windows.net/images/draft-logos/favicon-192-3a0cd420-b2fb-4e53-be3b-dd5ba674671a.png",
+      "logoLink": "https://epic.gsfc.nasa.gov/about/api",
+      "languageConfig": {
+          "http": {},
+          "java": {},
+          "csharp": {},
+          "typescript": {},
+          "php": {},
+          "python": {},
+          "ruby": {}
+      },
+      "headIncludes": "  <link href=\"https:\\/\\/fonts.googleapis.com\\/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap\" rel=\"stylesheet\">",
+      "portalSettings": {
+          "themeOverrides": {
+              "themeType": "cool",
+              "palette": {
+                  "primaryColor": "#94C13D"
+              }
+          },
+          "enableExport": false,
+          "enableConsoleCalls": true
       }
-    },
-    "pageTitle": "NASA EPIC API",
-    "logoUrl": "https://apimaticio.blob.core.windows.net/images/draft-logos/favicon-192-3a0cd420-b2fb-4e53-be3b-dd5ba674671a.png",
-    "logoLink": "https://epic.gsfc.nasa.gov/about/api",
-    "useHostedPortalScript": true,
-    "debug": {
-      "publishReport": false,
-      "dumpImportedApi": false,
-      "reportPath": "./apimatic-debug/apimatic-report.html",
-      "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
-    }
   }
 }

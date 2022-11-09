@@ -1,0 +1,44 @@
+{
+  "MergeConfiguration": {
+    "MergeApis": false
+  },
+  "ImportSettings": {
+    "PreferJsonSchemaNameOverTitle": true,
+    "AppendParentNameForClashes": false,
+    "AutoGenerateTestCases": true,
+    "PreferSwaggerOperationSummaryOverId": false
+  },
+  "ExportSettings": {
+    "ExportExtensions": false,
+    "UseDateTimeOnlyInRaml": false,
+    "AddRefSiblingDataInAllOfSchema": false,
+    "EncodeUrlParamsInPostman": true
+  },
+  "ServerConfiguration": {
+    "DefaultEnvironment": "production",
+    "DefaultServer": "default",
+    "Environments": [
+      {
+        "Name": "production",
+        "Servers": [
+          {
+            "Name": "default",
+            "Url": "http://example.com"
+          }
+        ]
+      }
+    ],
+    "Parameters": []
+  },
+  "TestGenSettings": {
+    "Configuration": {},
+    "TestTimeout": 30,
+    "PrecisionDelta": 0.01
+  },
+  "CodeGenSettings": {
+    "SynchronyMode": "Asynchronous",
+    "ModelSerializationScheme": "Json",
+    "ArraySerialization": "Indexed",
+    "Nullify404": true
+  }
+}
